@@ -1,31 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="140" viewBox="0 0 640 140">
+<svg width="320" height="40" viewBox="0 0 320 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lit by 2 — Mother & Daughter Candle Shop">
   <defs>
     <style>
-      .pink{fill:#f9a8d4;} /* baby pink */
-      .black{fill:#111111;} /* near-black */
-      .text{font: 700 60px/1.1 'Helvetica Neue', Arial, sans-serif;}
-      .small{font: 500 16px/1.2 'Helvetica Neue', Arial, sans-serif;}
+      .pink{fill:#f7a8cf}
+      .black{fill:#111}
+      .text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;font-weight:700;letter-spacing:.5px}
     </style>
   </defs>
 
-  <!-- candles icon -->
-  <g transform="translate(16,25)">
-    <rect x="0" y="45" width="44" height="48" rx="8" class="pink" />
-    <rect x="50" y="28" width="44" height="65" rx="8" class="pink" />
-    <path d="M16 45c6-6 10-12 10-19 0-5-2-9-6-12 8 1 15 7 15 16 0 7-3 11-9 15z" class="pink"/>
-    <path d="M66 28c6-6 10-12 10-19 0-5-2-9-6-12 8 1 15 7 15 16 0 7-3 11-9 15z" class="pink"/>
-    <rect x="0" y="93" width="94" height="6" rx="3" class="pink"/>
+  <!-- two little pink candle shapes on the left -->
+  <g transform="translate(6,7)">
+    <rect class="pink" x="0" y="12" width="14" height="14" rx="2"/>
+    <rect class="pink" x="18" y="8" width="14" height="18" rx="2"/>
+    <path class="pink" d="M6 4c0-2.2 2-4 3-4s3 1.8 3 4c0 2.3-2.2 3.8-3 6-.8-2.2-3-3.7-3-6z"/>
+    <path class="pink" d="M24 0c0-2.2 2-4 3-4s3 1.8 3 4c0 2.4-2.2 3.8-3 6-.8-2.2-3-3.6-3-6z" transform="translate(0,4)"/>
   </g>
 
   <!-- wordmark -->
-  <text x="130" y="85" class="text black">LIT BY</text>
+  <text x="64" y="26" font-size="20" class="text black">LIT BY</text>
 
-  <!-- heart-shaped 2 -->
-  <g transform="translate(440,28) scale(1.1)">
-    <path class="pink" d="M20 40c-9-7-14-13-14-20 0-6 4-10 9-10 4 0 7 2 9 6 2-4 5-6 9-6 5 0 9 4 9 10 0 7-5 13-14 20l-4 3z"/>
-    <text x="26" y="46" class="text black" style="font-size:64px">2</text>
+  <!-- heart + 2 (the 2 is intentionally pulled closer) -->
+  <g transform="translate(158,0)">
+    <!-- heart -->
+    <path class="pink" d="M10.5 22.5c-3-1.9-5-3.9-5-6.6C5.5 13.2 6.9 12 8.6 12c1 .1 1.9.6 2.4 1.4.5-.8 1.4-1.3 2.4-1.4 1.7 0 3.1 1.2 3.1 3.9 0 2.7-2 4.7-5 6.6-.3.2-.7.2-1 0z"/>
+    <!-- the “2” moved 4px left to sit closer to the heart -->
+    <text x="21" y="26" font-size="22" class="text black" letter-spacing="-1">2</text>
   </g>
 
-  <!-- tagline -->
-  <text x="132" y="110" class="small black" letter-spacing=".18em">MOTHER &amp; DAUGHTER CANDLE SHOP</text>
+  <!-- tiny subtitle under the wordmark (optional; faint) -->
+  <text x="64" y="36" font-size="8" class="black" opacity=".65">MOTHER &amp; DAUGHTER CANDLE SHOP</text>
 </svg>
