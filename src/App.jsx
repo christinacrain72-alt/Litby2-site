@@ -17,7 +17,7 @@ export default function App() {
           ✨ Lit by 2 ✨
         </h1>
         <p className="text-pink-200 mt-2 text-sm md:text-base">
-          Hand-poured candles • 
+          Hand-poured candles
         </p>
       </div>
 
@@ -25,11 +25,11 @@ export default function App() {
       <header className="sticky top-0 z-20 bg-pink-100/90 backdrop-blur border-b border-pink-200">
         <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-          <img
-  src="/logo-wordmark.svg"
-  alt="Lit by 2 — Mother & Daughter Candle Shop"
-  className="h-8 md:h-10 w-auto"
-/>
+            <img
+              src="/logo-wordmark.svg"
+              alt="Lit by 2 — Mother & Daughter Candle Shop"
+              className="h-8 md:h-10 w-auto"
+            />
           </a>
           <nav className="hidden sm:flex gap-6 text-sm">
             <a href="#shop" className="hover:text-pink-600">Shop</a>
@@ -49,11 +49,11 @@ export default function App() {
       <section id="home" className="mx-auto max-w-6xl px-4 pt-10 pb-8">
         <div className="rounded-3xl p-8 md:p-12 bg-white shadow-sm border border-pink-200">
           <div className="flex items-center gap-4">
-          <img
-  src="/logo-round.svg"
-  alt="Lit by 2 round logo"
-  className="h-16 w-16 rounded-full object-contain"
-/>
+            <img
+              src="/logo-round.svg"
+              alt="Lit by 2 round logo"
+              className="h-16 w-16 rounded-full object-contain"
+            />
             <div>
               <p className="text-xs uppercase tracking-widest text-black font-semibold">
                 Hand-poured • Small batch
@@ -64,7 +64,7 @@ export default function App() {
             </div>
           </div>
           <p className="mt-4 text-gray-700">
-              Clean burning candles with dreamy scents. Perfect for gifts,
+            Clean burning candles with dreamy scents. Perfect for gifts,
             self-care nights, and cozy vibes.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
@@ -113,15 +113,12 @@ export default function App() {
       <section id="about" className="mx-auto max-w-6xl px-4 py-10">
         <div className="rounded-3xl bg-white border border-pink-200 p-6 md:p-8">
           <h3 className="text-2xl md:text-3xl font-bold text-black">Our Story</h3>
-         <p className="mt-3 text-gray-700 leading-relaxed">
-  We’re a mother & daughter duo pouring love into every jar. What began
-  as a cozy kitchen hobby turned into our favorite ritual—picking scents,
-  stirring slowly, and laughing while we label each candle by hand. Every
-  batch is small, clean-burning, and made to bring warm, comfy moments to
-  your home.
-</p>
-          
-      
+          <p className="mt-3 text-gray-700 leading-relaxed">
+            We’re a mother-and-daughter duo pouring a little love into every jar. 
+            What started at our kitchen table became our favorite ritual—choosing scents, 
+            telling stories, and making something cozy together. Each candle is crafted 
+            in small batches with care, ready to bring warmth to your home and smiles to your people.
+          </p>
           <ul className="mt-4 grid sm:grid-cols-3 gap-3 text-sm">
             <li className="rounded-xl border border-pink-200 bg-pink-50 px-4 py-3">🌿 Clean ingredients</li>
             <li className="rounded-xl border border-pink-200 bg-pink-50 px-4 py-3">🕯️ Long-lasting scents</li>
@@ -148,9 +145,10 @@ export default function App() {
         </div>
       </section>
 
+      {/* Footer */}
       <footer className="py-10 text-center text-xs text-gray-600">
         <div className="mx-auto max-w-6xl px-4 flex items-center justify-center gap-3">
-          <img src="/logo-round.png" alt="Lit by 2 round logo" className="h-8 w-8 rounded-full object-contain" />
+          <img src="/logo-round.svg" alt="Lit by 2 round logo" className="h-8 w-8 rounded-full object-contain" />
           <span>© {new Date().getFullYear()} Lit by 2 • christinacrain72@gmail.com</span>
         </div>
       </footer>
