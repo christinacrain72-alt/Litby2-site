@@ -25,11 +25,11 @@ export default function App() {
       <header className="sticky top-0 z-20 bg-pink-100/90 backdrop-blur border-b border-pink-200">
         <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <img
-              src="/logo-wordmark.svg"
-              alt="Lit by 2 — Mother & Daughter Candle Shop"
-              className="h-8 md:h-10 w-auto"
-            />
+          <img
+  src="/logo-wordmark.svg"
+  alt="Lit by 2 — Mother & Daughter Candle Shop"
+  className="h-8 md:h-10 w-auto"
+/>
           </a>
           <nav className="hidden sm:flex gap-6 text-sm">
             <a href="#shop" className="hover:text-pink-600">Shop</a>
@@ -49,11 +49,11 @@ export default function App() {
       <section id="home" className="mx-auto max-w-6xl px-4 pt-10 pb-8">
         <div className="rounded-3xl p-8 md:p-12 bg-white shadow-sm border border-pink-200">
           <div className="flex items-center gap-4">
-            <img
-              src="/logo-round.png"
-              alt="Lit by 2 round logo"
-              className="h-16 w-16 rounded-full object-contain"
-            />
+          <img
+  src="/logo-round.svg"
+  alt="Lit by 2 round logo"
+  className="h-16 w-16 rounded-full object-contain"
+/>
             <div>
               <p className="text-xs uppercase tracking-widest text-black font-semibold">
                 Hand-poured • Small batch
