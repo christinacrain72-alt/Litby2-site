@@ -46,12 +46,38 @@ export default function App() {
 
       {/* BEAUTIFIED HERO CARD (with round logo, pink background) */}
       <section id="home" className="mx-auto max-w-6xl px-4 pt-10 pb-8">
-        <div className="rounded-3xl p-8 md:p-12 bg-pink-100 shadow-md border border-pink-300 text-center">
-          <img
-            src="/logo-round.png"
-            alt="Lit by 2 round logo"
-            className="mx-auto h-28 w-28 object-contain mb-4"
-          />
+  <div className="rounded-3xl p-8 md:p-12 bg-pink-100 shadow-md border border-pink-300 text-center">
+    <img
+      src="/logo-round.png"
+      alt="Lit by 2 round logo"
+      className="mx-auto h-28 w-28 object-contain mb-4"
+    />
+    <p className="text-xs uppercase tracking-widest text-black/80 font-semibold">
+      HAND-POURED • SMALL BATCH
+    </p>
+    <h2 className="mt-1 text-3xl md:text-5xl font-extrabold leading-tight text-black">
+      Candles made with love by Lit by 2
+    </h2>
+    <p className="mt-4 text-gray-800 max-w-2xl mx-auto">
+      A sweet mother &amp; daughter shop pouring joy into every jar. Clean burning candles
+      with dreamy scents—perfect for gifts, self-care nights, and cozy vibes.
+    </p>
+    <div className="mt-6 flex flex-wrap justify-center gap-3">
+      <a
+        href="#shop"
+        className="px-5 py-2 rounded-full bg-black text-pink-100 font-medium"
+      >
+        Shop our scents
+      </a>
+      <a
+        href="#about"
+        className="px-5 py-2 rounded-full border border-black text-black font-medium bg-white"
+      >
+        Learn more
+      </a>
+    </div>
+  </div>
+</section>
           <p className="text-xs uppercase tracking-widest text-black/80 font-semibold">
             HAND-POURED • SMALL BATCH
           </p>
