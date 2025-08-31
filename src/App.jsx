@@ -64,7 +64,7 @@ export default function App() {
             </div>
           </div>
           <p className="mt-4 text-gray-700">
-            Clean burning soy-blend candles with dreamy scents. Perfect for gifts,
+            Clean burning candles with dreamy scents. Perfect for gifts,
             self-care nights, and cozy vibes.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
