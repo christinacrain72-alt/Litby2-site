@@ -1,0 +1,1 @@
+# Lit by 2 — One‑Page Website\n\nReact + Vite site for Lit by 2 candles.
