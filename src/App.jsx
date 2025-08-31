@@ -113,11 +113,15 @@ export default function App() {
       <section id="about" className="mx-auto max-w-6xl px-4 py-10">
         <div className="rounded-3xl bg-white border border-pink-200 p-6 md:p-8">
           <h3 className="text-2xl md:text-3xl font-bold text-black">Our Story</h3>
-          <p className="mt-3 text-gray-700 leading-relaxed">
-            We’re two makers pouring joy into every jar. Our candles are crafted
-            in small batches using premium fragrance oils and cotton wicks for a
-            clean, cozy burn.
-          </p>
+         <p className="mt-3 text-gray-700 leading-relaxed">
+  We’re a mother & daughter duo pouring love into every jar. What began
+  as a cozy kitchen hobby turned into our favorite ritual—picking scents,
+  stirring slowly, and laughing while we label each candle by hand. Every
+  batch is small, clean-burning, and made to bring warm, comfy moments to
+  your home.
+</p>
+          
+      
           <ul className="mt-4 grid sm:grid-cols-3 gap-3 text-sm">
             <li className="rounded-xl border border-pink-200 bg-pink-50 px-4 py-3">🌿 Clean ingredients</li>
             <li className="rounded-xl border border-pink-200 bg-pink-50 px-4 py-3">🕯️ Long-lasting scents</li>
