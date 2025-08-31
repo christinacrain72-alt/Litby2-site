@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-pink-50 text-black">
 
-      {/* BIG HERO BANNER */}
+      {/* HERO BANNER */}
       <div className="w-full bg-black py-6 text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-pink-400 drop-shadow-lg">
           ✨ Lit by 2 ✨
@@ -21,15 +21,18 @@ export default function App() {
         </p>
       </div>
 
-      {/* Header with horizontal logo */}
+      {/* HEADER */}
       <header className="sticky top-0 z-20 bg-pink-100/90 backdrop-blur border-b border-pink-200">
         <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <img
-              src="/logo-wordmark.svg"
-              alt="Lit by 2 — Mother & Daughter Candle Shop"
-              className="h-8 md:h-10 w-auto"
-            />
+            <picture>
+              <source srcSet="/logo-wordmark.svg" type="image/svg+xml" />
+              <img
+                src="/logo-wordmark.png"
+                alt="Lit by 2 — Mother & Daughter Candle Shop"
+                className="h-8 md:h-10 w-auto"
+              />
+            </picture>
           </a>
           <nav className="hidden sm:flex gap-6 text-sm">
             <a href="#shop" className="hover:text-pink-600">Shop</a>
@@ -44,3 +47,15 @@ export default function App() {
           </a>
         </div>
       </header>
+
+      {/* INTRO SECTION */}
+      <section id="home" className="mx-auto max-w-6xl px-4 pt-10 pb-8">
+        <div
+          className="relative overflow-hidden rounded-3xl p-8 md:p-12 border border-pink-200 shadow-sm"
+          style={{
+            background:
+              "linear-gradient(135deg, #FCE7F3 0%, #FBCFE8 45%, #FDECF5 100%)"
+          }}
+        >
+          {/* Glow accents */}
+          <div className="pointer-events-none absolute -top-10 -right-10 h-40 w
