@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
   <!-- Pink candles icon -->
   <g transform="translate(0,10)">
     <rect x="10" y="30" width="15" height="30" rx="3" fill="#F9A8D4"/>
@@ -11,13 +11,14 @@
   <text x="80" y="50" font-family="Arial Black, sans-serif" font-size="28" fill="black">
     LIT BY
   </text>
-  <text x="200" y="50" font-family="Arial Black, sans-serif" font-size="32" fill="black" letter-spacing="-4">
+  <text x="200" y="50" font-family="Arial Black, sans-serif" font-size="32" fill="#F472B6" letter-spacing="-4">
     2
   </text>
-  <!-- Small heart accent -->
+
+  <!-- Heart accent -->
   <path d="M220 42 C220 38, 226 38, 226 42 C226 38, 232 38, 232 42 
            C232 46, 226 50, 226 54 C226 50, 220 46, 220 42 Z" fill="#F472B6"/>
-  
+
   <!-- Tagline -->
   <text x="80" y="70" font-family="Arial, sans-serif" font-size="12" fill="black">
     MOTHER & DAUGHTER CANDLE SHOP
