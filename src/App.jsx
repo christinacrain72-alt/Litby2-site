@@ -17,7 +17,7 @@ export default function App() {
           ✨ Lit by 2 ✨
         </h1>
         <p className="text-pink-200 mt-2 text-sm md:text-base">
-          Hand-poured candles • Baby Pink & Black Aesthetic
+          Hand-poured candles • 
         </p>
       </div>
 
