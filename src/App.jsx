@@ -16,31 +16,19 @@ export default function App() {
         <p className="text-sm">Hand-poured candles</p>
       </header>
 
-      {/* INTRO SECTION */}
+      {/* INTRO */}
       <section className="flex flex-col items-center justify-center text-center py-12 px-4 bg-gradient-to-r from-pink-100 to-pink-200">
-        <img
-          src="/logo-round.png"
-          alt="Lit by 2 Logo"
-          className="w-40 h-40 mb-6 rounded-full shadow-lg"
-        />
-        <h2 className="text-3xl font-bold text-gray-800">
-          Candles made with love by Lit by 2
-        </h2>
+        <img src="/logo-round.png" alt="Lit by 2 Logo" className="w-40 h-40 mb-6 rounded-full shadow-lg" />
+        <h2 className="text-3xl font-bold text-gray-800">Candles made with love by Lit by 2</h2>
         <p className="mt-4 text-gray-700 max-w-2xl">
           A mother & daughter pouring joy into every jar. Cozy, clean candles
           perfect for self-care nights, thoughtful gifts, and warm homes.
         </p>
         <div className="mt-6 flex gap-3">
-          <a
-            href="#shop"
-            className="px-6 py-3 rounded-full bg-black text-white font-medium shadow hover:bg-gray-800"
-          >
+          <a href="#shop" className="px-6 py-3 rounded-full bg-black text-white font-medium shadow hover:bg-gray-800">
             Shop our scents
           </a>
-          <a
-            href="mailto:christinacrain72@gmail.com"
-            className="px-6 py-3 rounded-full bg-white text-black border border-black font-medium shadow hover:bg-gray-100"
-          >
+          <a href="mailto:christinacrain72@gmail.com" className="px-6 py-3 rounded-full bg-white text-black border border-black font-medium shadow hover:bg-gray-100">
             Email us to order
           </a>
         </div>
@@ -59,10 +47,7 @@ export default function App() {
               <p className="text-sm text-gray-600">{p.notes}</p>
               <p className="mt-2 font-bold">{p.price}</p>
               <p className="text-xs text-gray-500">{p.size}</p>
-              <a
-                href="mailto:christinacrain72@gmail.com"
-                className="mt-4 bg-black text-white py-2 rounded text-center hover:bg-gray-800"
-              >
+              <a href="mailto:christinacrain72@gmail.com" className="mt-4 bg-black text-white py-2 rounded text-center hover:bg-gray-800">
                 Order this
               </a>
             </div>
@@ -73,10 +58,7 @@ export default function App() {
       {/* FOOTER */}
       <footer className="bg-black text-white py-6 text-center">
         <p>© 2025 Lit by 2 Candle Shop. All rights reserved.</p>
-        <a
-          href="mailto:christinacrain72@gmail.com"
-          className="underline text-pink-300 block mt-2"
-        >
+        <a href="mailto:christinacrain72@gmail.com" className="underline text-pink-300 block mt-2">
           ✨ Email us to order
         </a>
       </footer>
