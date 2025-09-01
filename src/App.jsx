@@ -30,3 +30,7 @@ export default function App() {
           <a
             href="#contact"
             className="
+</footer>
+    </div>
+  );
+      }
